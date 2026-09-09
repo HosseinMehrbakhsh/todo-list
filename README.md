@@ -31,7 +31,7 @@ A simple and responsive ToDo List application built with **HTML, CSS, JavaScript
 
 ## Live Demo
 
-[View Live Demo](https://hosseinmehrbakhsh.github.io/bootstrap-carsara/)
+[View Live Demo](https://hosseinmehrbakhsh.github.io/todo-list/)
 
 ## Author
 
