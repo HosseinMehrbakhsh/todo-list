@@ -1,0 +1,32 @@
+body {
+    background-color: hsl(0, 0%, 12%);
+}
+
+.to_do_input_box {
+    background-color: hsl(0, 0%, 25%);
+}
+
+.to_do_content_box {
+    background-color: hsl(0, 0%, 25%);
+}
+
+.alert-done {
+    background-color: hsl(0, 0%, 60%);
+}
+
+/* responsive */
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .to_do_content_list li {
+        flex-direction: column;
+    }
+
+    .toDoTitle {
+        padding-bottom: 15px;
+        align-self: flex-start;
+    }
+
+    .to_do_content_list li div {
+        align-self: flex-end;
+    }
+}

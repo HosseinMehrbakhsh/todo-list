@@ -1,0 +1,41 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.css">
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mx-auto">
+                <div class="to_do_input_box alert px-4 py-3 rounded-2 my-5 mx-auto">
+                    <form action="" class="toDoForm d-flex gap-3 m-0">
+                        <input type="text" class="to_do_input form-control" placeholder="کار مورد نظر را وارد کنید...">
+                        <button type="submit" class="add_btn btn btn-outline-light ">افزودن</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-lg-10 col-xl-8 col-xxl-7 mx-auto">
+                <div class="alert  to_do_content_box rounded-2 mx-auto d-none p-3">
+                    <ul class="to_do_content_list list-unstyled m-0"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
